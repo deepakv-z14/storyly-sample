@@ -48,7 +48,6 @@ const DetailPage = ({ route }) => {
             onPress={story => { 
               console.log("[Storyly] onPress--->", story); 
               this.customStoryly.close()
-              this.customStoryly.refresh()
               navigation.navigate("test")
             }}
             onEvent={eventPayload => { console.log("[Storyly] onEvent"); }}
